@@ -4,7 +4,7 @@ type: Drill
 health: 1200
 liquidCapacity: 6
 size: 3
-tier: 8
+tier: 30
 drillTime: 40
 liquidBoostIntensity: 2
 consumes: {
