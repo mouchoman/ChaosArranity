@@ -1,0 +1,35 @@
+type: NuclearReactor
+name: Fireatite Reactor
+description: Uses the heat of fireatite to make an immense amount of power. Requires massive amounts of coolant to prevent overheating. Without coolant, the explosion is nearly impossible to stop.
+size: 3
+health: 3000
+hasPower: true
+hasItems: true
+hasLiquids: true
+breakSound: explosionbig
+baseExplosiveness: 2000
+explosionRadius: 300
+explosionDamage: 8000
+itemDuration: 80
+powerProduction: 168
+heating: 0.003
+consumes: {
+  items: {
+    items: [
+          fireatite/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.8
+  }
+}
+requirements: [
+  silicon/100
+  surge-alloy/100
+  graphite/100
+  adamantite/15
+  titanium/300
+]
+category: power
+research: thorium-reactor

@@ -1,0 +1,9 @@
+name: Liquid Fire
+description: Pure fire, in liquid form.
+temperature: 10
+viscosity: 0.1
+heatCapacity: 0
+flammability: 10
+explosiveness: 0
+effect: burning
+color: ff785e

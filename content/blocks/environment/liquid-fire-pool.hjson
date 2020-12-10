@@ -1,0 +1,17 @@
+type: Floor
+name: Liquid Fire
+solid: false
+variants: 1
+placeableOn: true
+targetable: false
+canOverdrive: false
+hasShadow: false
+destructible: false
+speedMultiplier: 0.4
+damageTaken: 4
+drownTime: 180
+status: melting
+statusDuration: 420
+isLiquid: true
+liquidDrop: liquid-fire
+playerUnmineable: true

@@ -1,0 +1,14 @@
+ammoTypes: {
+   water: waterShot
+   oil: oilShot
+   slag: slagShot
+   cryofluid: cryoShot
+  scale: {
+    type:LiquidBulletType
+    ammoMultiplier: 2
+    reloadMultiplier: 1
+    status: tarred
+    knockback: 0.8
+    liquid: scale
+   }
+}

@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Advanced Spore Press
+description: Compresses spore pods into oil. Much more efficent than the original design.
+liquidCapacity: 50
+outputLiquid: {
+  liquid: oil
+  amount: 8.5
+}
+size: 2
+health: 225
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+   power: 1
+   items: {
+      items: [
+         spore-pod/1
+      ]
+   }
+}
+
+requirements: [
+ lead/200
+ titanium/80
+ silicon/60
+ graphite/60
+]
+category: crafting
+research: spore-press
