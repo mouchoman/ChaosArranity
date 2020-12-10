@@ -16,8 +16,8 @@ weapons: [
   bullet: {
       type: LaserBulletType
       lifetime: 10
-      damage: 400
-      length: 180
+      damage: 1000
+      length: 200
    }
   shootSound: bang
 }
