@@ -19,8 +19,6 @@ blast-compound: {
     width: 10
     height: 10
     status: burning
-    fragBullets: 4
-    fragBullet: missileExplosive
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 2

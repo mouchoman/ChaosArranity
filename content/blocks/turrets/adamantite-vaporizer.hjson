@@ -14,6 +14,7 @@ reloadTime: 90
 spread: 0
 recoilAmount: 1
 cooldown: 0.05
+restitution: 0.05
 rotateSpeed: 5
 shootCone: 5
 shootShake: 0

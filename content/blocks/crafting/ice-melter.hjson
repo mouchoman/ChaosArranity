@@ -25,5 +25,5 @@ requirements: [
 ]
 category: crafting
 research: melter
-outputLiquid: water/6
+outputLiquid: water/1.5
 

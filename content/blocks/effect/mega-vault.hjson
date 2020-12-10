@@ -11,7 +11,7 @@ outlineColor: c30d40
 requirements: [
      copper/100
      titanium/500
-     adamantite/10
+     adamantite/25
      phase-fabric/10
 ]
 category: effect

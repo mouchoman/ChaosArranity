@@ -1,6 +1,6 @@
 type: NuclearReactor
 name: Fireatite Reactor
-description: Uses the heat of fireatite to make an immense amount of power. Requires massive amounts of coolant to prevent overheating. Without coolant, the explosion is nearly impossible to stop.
+description: Burns Fireatite to produce extreme quantities of power. Requires massive amounts of coolant to prevent overheating.
 size: 3
 health: 3000
 hasPower: true
@@ -20,7 +20,7 @@ consumes: {
     ]
   }
   liquid: {
-    liquid: cryofluid
+    liquid: cryogenic-fluid
     amount: 0.8
   }
 }

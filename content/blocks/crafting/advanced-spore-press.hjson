@@ -1,10 +1,10 @@
 type: GenericSmelter
 name: Advanced Spore Press
 description: Compresses spore pods into oil. Much more efficent than the original design.
-liquidCapacity: 50
+liquidCapacity: 64
 outputLiquid: {
   liquid: oil
-  amount: 8.5
+  amount: 12
 }
 size: 2
 health: 225

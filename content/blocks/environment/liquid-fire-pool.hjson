@@ -7,9 +7,9 @@ targetable: false
 canOverdrive: false
 hasShadow: false
 destructible: false
-speedMultiplier: 0.4
-damageTaken: 4
-drownTime: 180
+speedMultiplier: 0.8
+damageTaken: 1
+drownTime: 420
 status: melting
 statusDuration: 420
 isLiquid: true

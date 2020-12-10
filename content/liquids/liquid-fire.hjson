@@ -5,5 +5,11 @@ viscosity: 0.1
 heatCapacity: 0
 flammability: 10
 explosiveness: 0
-effect: burning
+effect: {
+   name: incinerating
+   damage: 1
+   speedMultiplier: 0.8
+   color: ff8800
+   effect: fire
+}
 color: ff785e

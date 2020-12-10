@@ -19,7 +19,7 @@ consumes: {
    }
 }
 requirements: [
-     adamantite/75
+     adamantite/100
      lead/200
      thorium/200
      titanium/200

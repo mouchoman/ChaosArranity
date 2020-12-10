@@ -1,9 +1,9 @@
 type: LiquidTurret
 name: Wave MK3
-description: A more powerful version of Wave. Reinforced pipes allow the Wave Mk3 to use Liquid Fire or Cryogenic Fluid as ammo.
+description: A more powerful version of Wave. Reinforced pipes allow the Wave Mk3 to use Liquid Fire as ammo.
 health: 1100
 size: 4
-reloadTime: 2
+reloadTime: 1
 range: 160
 targetAir: true
 targetGround: true

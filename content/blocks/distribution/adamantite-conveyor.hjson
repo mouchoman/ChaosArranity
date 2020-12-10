@@ -1,10 +1,10 @@
-type: conveyor
+type: StackConveyor
 name: Adamantite Conveyor
 description: A conveyor made out of adamantite. Very durable and fast, but also expensive.
 size: 1
 health: 1000
 speed: 0.25
-itemCapacity: 5
+itemCapacity: 25
 outlineColor: c30d40
 canOverdrive: false
 requirements: [
@@ -14,4 +14,4 @@ requirements: [
 ]
 group: transportation
 category: distribution
-research: armored-conveyor
+research: plastanium-conveyor

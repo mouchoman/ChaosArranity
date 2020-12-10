@@ -11,4 +11,12 @@ ammoTypes: {
     knockback: 0.8
     liquid: scale
    }
+  cryogenic-fluid: {
+    type:LiquidBulletType
+    ammoMultiplier: 2
+    reloadMultiplier: 1
+    status: freezing
+    knockback: 0.5
+    liquid: cryofluid
+   }
 }

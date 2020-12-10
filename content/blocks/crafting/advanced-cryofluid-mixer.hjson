@@ -4,7 +4,7 @@ description: Mixes scale and titanium to make lots of cryofluid.
 liquidCapacity: 50
 outputLiquid: {
   liquid: cryofluid
-  amount: 8
+  amount: 24
 }
 size: 2
 health: 340
