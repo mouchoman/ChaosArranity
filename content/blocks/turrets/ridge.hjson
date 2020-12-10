@@ -49,13 +49,7 @@ ammoTypes: {
    }
 }
 requirements: [
-  lead/150
-  copper/300
-  graphite/150
-  titanium/130
-  thorium/100
-  plastanium/80
-  surge-alloy/60
+   copper/80
 ]
 category: turret
 research: duo
