@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Silicon Refinery
+description: Reduces sand with power to make large amounts of silicon.
+liquidCapacity: 0
+itemCapacity: 30
+size: 3
+health: 660
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+outputItem: silicon/10
+consumes: {
+  power: 5
+  items: {
+    items: [
+     sand/8
+    ]
+  }
+}
+requirements: [
+  copper/150
+  metaglass/50
+  thorium/30
+  silicon/100
+]
+category: crafting
+research: silicon-crucible
+

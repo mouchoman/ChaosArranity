@@ -1,0 +1,7 @@
+name: Adamantite
+description: A rare, super strong, highly radioactive, valuable metal.
+flammability: 0
+radioactivity: 5
+explosiveness: 0
+cost: 3
+color: aa2222

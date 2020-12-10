@@ -1,0 +1,38 @@
+type: flying
+name: Reliavent
+description: Advanced bomber.
+speed: 2.5
+buildSpeed: 3
+mineSpeed: 4
+mineTier: 4
+itemCapacity: 75
+flying: true
+range: 120
+health: 5000
+weapons: [
+{
+  name: reliavent-bombs
+  y: 0
+  reload: 15
+  alternate: false
+  rotate: true
+  inaccuracy: 20
+  bullet: {
+   type: BombBulletType
+   width: 16
+   height: 16
+   keepVelocity: false
+   speed: 0
+   lifetime: 60
+   damage: 50
+   status: burning
+   despawnEffect: explosion
+   splashDamage: 50
+   splashDamageRadius: 96
+   hitSound: explosion
+   fragBullets: 4
+   fragBullet: fireball
+}
+  shootSound: none
+}
+]

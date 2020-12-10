@@ -1,0 +1,17 @@
+type: conveyor
+name: Adamantite Conveyor
+description: A conveyor made out of adamantite. Very durable and fast, but also expensive.
+size: 1
+health: 1000
+speed: 0.25
+itemCapacity: 5
+outlineColor: c30d40
+canOverdrive: false
+requirements: [
+     adamantite/1
+     lead/10
+     thorium/10
+]
+group: transportation
+category: distribution
+research: armored-conveyor

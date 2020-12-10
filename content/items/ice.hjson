@@ -1,0 +1,6 @@
+name: Ice
+description: Water that has been cooled below freezing. Used for storage or ammo.
+flammability: 0
+radioactivity: 0
+explosiveness: 0
+color: 9db5e5
