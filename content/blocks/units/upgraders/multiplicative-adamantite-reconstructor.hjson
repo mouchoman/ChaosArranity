@@ -6,17 +6,23 @@ size: 5
 itemCapacity: 100
 constructTime: 21600
 upgrades: [
-    [reliavent, silo-array],
+    [silo-array, decimation],
 ]
 consumes: {
     power: 14
     items: {
         items: [
-            adamantite/40
-            surge-alloy/60
-            plastanium/100
+            graphite/1000
+            silicon/1000
+            adamantite/500
+            surge-alloy/800
+            plastanium/1000
         ]
     }
+  liquid: {
+    liquid: cryogenic-fluid
+    amount: 1
+  }
 }
 requirements: [
     titanium/200

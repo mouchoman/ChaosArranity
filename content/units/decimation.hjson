@@ -1,0 +1,24 @@
+type: flying
+name: Decimation
+description: idk what to put here.
+speed: 3
+weight: 20
+flying: true
+health: 12000
+weapons: [
+{
+  name: decimator-cannon
+  x: 20
+  y: 10
+  reload: 60
+  rotate: true
+  alternate: true
+  bullet: {
+      type: LaserBulletType
+      lifetime: 10
+      damage: 400
+      length: 180
+   }
+  shootSound: bang
+}
+]

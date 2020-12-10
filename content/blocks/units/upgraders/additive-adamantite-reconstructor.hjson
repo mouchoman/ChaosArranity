@@ -12,12 +12,11 @@ consumes: {
     power: 10
     items: {
         items: [
-            adamantite/40
-            silicon/1000
-            graphite/1000
-            surge-alloy/300
-            plastanium/500
-            fireatite/120
+            graphite/600
+            silicon/800
+            adamantite/225
+            surge-alloy/500
+            plastanium/700
         ]
     }
   liquid: {
