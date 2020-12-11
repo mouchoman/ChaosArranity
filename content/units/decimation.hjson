@@ -1,6 +1,6 @@
 type: flying
 name: Decimation
-speed: 3
+speed: 2
 weight: 20
 flying: true
 health: 12000
@@ -10,7 +10,7 @@ weapons: [
   x: 20
   y: 10
   reload: 60
-  rotate: true
+  rotate: false
   alternate: true
   bullet: {
       type: LaserBulletType
