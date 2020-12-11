@@ -1,6 +1,5 @@
 type: flying
 name: Decimation
-description: idk what to put here.
 speed: 3
 weight: 20
 flying: true

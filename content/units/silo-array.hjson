@@ -1,6 +1,5 @@
 type: flying
 name: Silo Array
-description: this mech can do anything. Nothing can easily stop it.
 speed: 3
 flying: true
 health: 10000

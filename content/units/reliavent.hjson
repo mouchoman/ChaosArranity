@@ -1,6 +1,5 @@
 type: flying
 name: Reliavent
-description: Advanced bomber.
 speed: 2.5
 buildSpeed: 3
 mineSpeed: 4
