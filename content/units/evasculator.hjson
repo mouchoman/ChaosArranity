@@ -1,6 +1,6 @@
 type: mech
 name: Evasculator
-description: An armored titan, nearly impossible to stop. Armored with several large plates of adamantite, this is a mech meant for combat usage.
+description: 
 speed: 0.1
 boostMultiplier: 1.5
 buildSpeed: 2
