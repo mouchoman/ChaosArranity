@@ -5,7 +5,7 @@ weight: 20
 armor: 0.1
 flying: true
 faceTarget: false
-health: 18000
+health: 30000
 weapons: [
 {
   name: carnage-rockets
