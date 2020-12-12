@@ -13,7 +13,7 @@ consumes: {
     items: {
         items: [
             graphite/1000
-            silicon/1000
+            silicon/800
             adamantite/500
             surge-alloy/800
             plastanium/1000
