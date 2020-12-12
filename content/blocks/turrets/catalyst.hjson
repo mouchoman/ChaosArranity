@@ -210,11 +210,11 @@ ammoTypes: {
    }
 }
 requirements: [
-  lead/800
+  lead/500
   graphite/1000
-  thorium/400
-  plastanium/200
-  surge-alloy/80
+  thorium/220
+  plastanium/220
+  surge-alloy/300
 ]
 category: turret
 research: foreshadow
