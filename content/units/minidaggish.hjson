@@ -1,6 +1,6 @@
 type: mech
 name: MiniDaggish
-description: Tiny ground unit.
+description: Tiny ground unit. High rate of fir, but low health.
 speed: 0.6
 accel: 1.75
 drag: 0.4
@@ -14,7 +14,7 @@ weapons: [
   name: mini-blaster
   y: 0
   x: 2
-  reload: 15
+  reload: 4
   shootSound: pew
   alternate: true
   inaccuracy: 10
