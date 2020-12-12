@@ -1,9 +1,9 @@
 type: Reconstructor
 name: Exponential Adamantite Reconstructor
 description: Upgrades adamantite units to the fourth tier
-health: 2000
+health: 7200
 size: 5
-itemCapacity: 100
+itemCapacity: 1250
 constructTime: 21600
 upgrades: [
     [decimation, carnage],
@@ -13,22 +13,22 @@ consumes: {
     items: {
         items: [
             graphite/1000
-            silicon/1000
-            adamantite/500
-            surge-alloy/800
-            plastanium/1000
+            silicon/1250
+            adamantite/720
+            surge-alloy/500
+            plastanium/1200
         ]
     }
   liquid: {
     liquid: cryogenic-fluid
-    amount: 1
+    amount: 2
   }
 }
 requirements: [
     titanium/200
     graphite/200
     silicon/500
-    adamantite/40
+    adamantite/400
 ]
 category: units
 research: additive-adamantite-reconstructor
