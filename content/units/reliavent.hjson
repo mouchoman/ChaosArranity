@@ -1,6 +1,6 @@
 type: flying
 name: Reliavent
-speed: 2.5
+speed: 1.80
 buildSpeed: 3
 mineSpeed: 4
 mineTier: 4
