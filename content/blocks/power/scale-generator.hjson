@@ -9,7 +9,7 @@ powerProduction: 11.6666666666666
 consumes: {
   items: {
     items: [
-          ice/5
+          ice/2
     ]
   }
   liquid: {
