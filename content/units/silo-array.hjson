@@ -2,13 +2,13 @@ type: flying
 name: Silo Array
 speed: 3
 flying: true
-health: 10000
+health: 15000
 weapons: [
 {
   name: missile-array
   x: 10
   y: 10
-  reload: 12
+  reload: 2
   rotate: true
   alternate: true
   bullet: missileIncendiary
