@@ -7,7 +7,7 @@ mineTier: 4
 itemCapacity: 75
 flying: true
 range: 120
-health: 5000
+health: 10000
 weapons: [
 {
   name: reliavent-bombs
