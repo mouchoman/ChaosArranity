@@ -9,7 +9,7 @@ upgrades: [
     [decimation, carnage],
 ]
 consumes: {
-    power: 14
+    power: 18
     items: {
         items: [
             graphite/1000
