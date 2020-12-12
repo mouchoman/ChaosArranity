@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Silicon Refinery
-description: Reduces sand with power to make large amounts of silicon.
+description: Refines sand with power to make large amounts of silicon.
 liquidCapacity: 0
 itemCapacity: 30
 size: 3
