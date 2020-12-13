@@ -3,14 +3,18 @@ name: Silo Array
 speed: 3
 flying: true
 commandLimit: 12
+buildSpeed: 3.5
+mineSpeed: 9
+mineTier: 4
+itemCapacity: 100
 health: 18000
 weapons: [
 {
   name: missile-array
-  x: 10
-  y: 10
+  x: 3
+  y: 4
   reload: 2
-  rotate: true
+  rotate: false
   alternate: true
   bullet: missileIncendiary
   shootSound: bang

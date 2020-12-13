@@ -7,8 +7,12 @@ engineOffset: 30
 engineSize: 10
 flying: true
 commandLimit: 20
+buildSpeed: 6
+mineSpeed: 16
+mineTier: 8
+itemCapacity: 250
 faceTarget: true
-health: 40000
+health: 42000
 weapons: [
 {
   name: nightmare-cannon
@@ -26,7 +30,7 @@ weapons: [
       width: 11
       height: 14
       lifetime: 60
-      damage: 50
+      damage: 200
    }
   shootSound: shootBig
 }
@@ -35,7 +39,7 @@ weapons: [
   x: 15
   y: 15
   recoil: 3
-  reload: 6
+  reload: 3
   rotate: true
   alternate: false
   mirror: true
@@ -44,8 +48,8 @@ weapons: [
       width: 9
       height: 12
       lifetime: 30
-      damage: 10
-      fragBullets: 6
+      damage: 20
+      fragBullets: 8
       fragBullet: fragGlassFrag
       splashDamage: 5
       splashDamageRadius: 8
@@ -66,7 +70,7 @@ weapons: [
       type: ContinuousLaserBulletType
       damage: 1000
       length: 100
-      lifetime: 300
+      lifetime: 285
    }
    shootSound: laserbig
    loopSound: beam
@@ -76,7 +80,7 @@ weapons: [
   x: 20
   y: -33
   recoil: 2
-  reload: 60
+  reload: 30
   shots: 6
   shotDelay: 4
   xRand: 4
@@ -92,10 +96,10 @@ weapons: [
       hitEffect: blastExplosion
       speed: 5
       lifetime: 60
-      damage: 50
+      damage: 80
       splashDamage: 100
       splashDamageRadius: 32
-      homingPower: 0.1
+      homingPower: 1
       homingRange: 64
       status: burning
       shrinkY: 0

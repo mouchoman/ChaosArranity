@@ -3,8 +3,14 @@ name: Decimation
 speed: 3
 drag: 20
 flying: true
+engineOffset: 12
+engineSize: 6
 commandLimit: 15
-health: 12000
+buildSpeed: 4
+mineSpeed: 10
+mineTier: 5
+itemCapacity: 125
+health: 25000
 weapons: [
 {
   name: decimator-cannon
@@ -12,11 +18,11 @@ weapons: [
   y: 10
   reload: 60
   rotate: false
-  alternate: true
+  alternate: false
   bullet: {
       type: LaserBulletType
       lifetime: 10
-      damage: 1000
+      damage: 1500
       length: 200
    }
   shootSound: bang

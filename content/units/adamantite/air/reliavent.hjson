@@ -2,9 +2,10 @@ type: flying
 name: Reliavent
 speed: 1.80
 buildSpeed: 3
-mineSpeed: 4
+mineSpeed: 8
 mineTier: 4
 itemCapacity: 75
+faceTarget: false
 commandLimit: 8
 flying: true
 range: 120
@@ -13,7 +14,7 @@ weapons: [
 {
   name: reliavent-bombs
   y: 0
-  reload: 15
+  reload: 2
   alternate: false
   rotate: true
   inaccuracy: 20
@@ -30,7 +31,7 @@ weapons: [
    splashDamage: 50
    splashDamageRadius: 96
    hitSound: explosion
-   fragBullets: 4
+   fragBullets: 8
    fragBullet: fireball
 }
   shootSound: none

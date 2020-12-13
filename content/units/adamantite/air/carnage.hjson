@@ -5,8 +5,12 @@ drag: 20
 armor: 0.1
 flying: true
 commandLimit: 18
+buildSpeed: 4.5
+mineSpeed: 10
+mineTier: 6
+itemCapacity: 150
 faceTarget: false
-health: 30000
+health: 32000
 weapons: [
 {
   name: carnage-rockets
