@@ -8,7 +8,7 @@ engineSize: 10
 flying: true
 commandLimit: 20
 faceTarget: true
-health: 40000
+health: 42000
 weapons: [
 {
   name: nightmare-cannon
@@ -26,7 +26,7 @@ weapons: [
       width: 11
       height: 14
       lifetime: 60
-      damage: 50
+      damage: 200
    }
   shootSound: shootBig
 }
@@ -44,8 +44,8 @@ weapons: [
       width: 9
       height: 12
       lifetime: 30
-      damage: 10
-      fragBullets: 6
+      damage: 20
+      fragBullets: 112
       fragBullet: fragGlassFrag
       splashDamage: 5
       splashDamageRadius: 8
@@ -92,10 +92,10 @@ weapons: [
       hitEffect: blastExplosion
       speed: 5
       lifetime: 60
-      damage: 50
+      damage: 80
       splashDamage: 100
       splashDamageRadius: 32
-      homingPower: 0.1
+      homingPower: 1
       homingRange: 64
       status: burning
       shrinkY: 0
