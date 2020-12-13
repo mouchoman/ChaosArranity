@@ -35,7 +35,7 @@ weapons: [
   x: 15
   y: 15
   recoil: 3
-  reload: 6
+  reload: 3
   rotate: true
   alternate: false
   mirror: true
@@ -76,7 +76,7 @@ weapons: [
   x: 20
   y: -33
   recoil: 2
-  reload: 60
+  reload: 30
   shots: 6
   shotDelay: 4
   xRand: 4
