@@ -4,7 +4,7 @@ speed: 3
 drag: 20
 flying: true
 commandLimit: 15
-health: 18000
+health: 25000
 weapons: [
 {
   name: decimator-cannon
