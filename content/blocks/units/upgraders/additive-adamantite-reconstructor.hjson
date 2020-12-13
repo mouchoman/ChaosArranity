@@ -1,9 +1,9 @@
 type: Reconstructor
 name: Additive Adamantite Reconstructor
 description: Upgrades adamantite units to the second tier
-health: 1000
+health: 4000
 size: 3
-itemCapacity: 50
+itemCapacity: 800
 constructTime: 14400
 upgrades: [
     [reliavent, silo-array],
@@ -28,7 +28,7 @@ requirements: [
     copper/350
     lead/260
     silicon/200
-    adamantite/20
+    adamantite/190
 ]
 category: units
 research: adamantite-unit-constructor

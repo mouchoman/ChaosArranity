@@ -1,10 +1,10 @@
 type: UnitFactory
 name: Adamantite Unit Constructor
-description: Produces adamantite units
+description: Produces adamantite units.
 health: 500
 size: 3
 requirements: [
-   adamantite/120
+   adamantite/220
    surge-alloy/780
    thorium/1000
    silicon/1000
@@ -25,6 +25,6 @@ plans: [
 
 category: units
 consumes: {
-    power: 10
+    power: 12
 }
 research: air-factory

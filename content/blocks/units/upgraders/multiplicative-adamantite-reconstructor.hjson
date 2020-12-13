@@ -1,9 +1,9 @@
 type: Reconstructor
 name: Multiplicative Adamantite Reconstructor
 description: Upgrades adamantite units to the third tier
-health: 2000
+health: 9000
 size: 5
-itemCapacity: 100
+itemCapacity: 1000
 constructTime: 21600
 upgrades: [
     [silo-array, decimation],
@@ -13,7 +13,7 @@ consumes: {
     items: {
         items: [
             graphite/1000
-            silicon/1000
+            silicon/800
             adamantite/500
             surge-alloy/800
             plastanium/1000
@@ -28,7 +28,7 @@ requirements: [
     titanium/200
     graphite/200
     silicon/500
-    adamantite/40
+    adamantite/260
 ]
 category: units
 research: additive-adamantite-reconstructor

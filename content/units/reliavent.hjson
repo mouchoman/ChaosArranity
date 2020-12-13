@@ -1,13 +1,13 @@
 type: flying
 name: Reliavent
-speed: 2.5
+speed: 1.80
 buildSpeed: 3
 mineSpeed: 4
 mineTier: 4
 itemCapacity: 75
 flying: true
 range: 120
-health: 5000
+health: 10000
 weapons: [
 {
   name: reliavent-bombs
