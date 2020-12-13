@@ -9,6 +9,6 @@ Ideas and JSON by Oreo
 Sprites and JSON by CoinCaribou2070/Chickenloser
 
 # Extras
-join our Discord to report bugs, be notified of updates, or make suggestions.
+Join our Discord to report bugs, be notified of updates, or make suggestions.
 
 discord.gg/6y6HAqTrkJ
