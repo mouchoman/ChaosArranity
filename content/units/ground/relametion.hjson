@@ -1,0 +1,20 @@
+type: mech
+name: Relametion
+description: Advanced ground unit that fires rockets at nearby threats. Based off of the marginator, with major upgrades.
+speed: 0.3
+accel: 5
+drag: 0.4
+flying: false
+health: 560
+engineOffset: 5.5
+range: 120
+hitSize: 15
+weapons: [{
+  name: rocket-gun
+  y: 5
+  x: 8
+  reload: 120
+  shootSound: bigshot
+  alternate: true
+  bullet: missileExplosive
+}]

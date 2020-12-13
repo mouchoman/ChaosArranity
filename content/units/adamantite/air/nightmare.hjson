@@ -1,0 +1,109 @@
+type: flying
+name: Nightmare
+speed: 1
+drag: 20
+armor: 5
+engineOffset: 30
+engineSize: 10
+flying: true
+commandLimit: 20
+faceTarget: true
+health: 40000
+weapons: [
+{
+  name: nightmare-cannon
+  x: 30
+  y: 0
+  recoil: 3
+  reload: 15
+  rotate: true
+  rotateSpeed: 0.01
+  shootCone: 20
+  alternate: true
+  mirror: true
+  bullet: {
+      speed: 6
+      width: 11
+      height: 14
+      lifetime: 60
+      damage: 50
+   }
+  shootSound: shootBig
+}
+{
+  name: nightmare-turret
+  x: 15
+  y: 15
+  recoil: 3
+  reload: 6
+  rotate: true
+  alternate: false
+  mirror: true
+  bullet: {
+      speed: 5
+      width: 9
+      height: 12
+      lifetime: 30
+      damage: 10
+      fragBullets: 6
+      fragBullet: fragGlassFrag
+      splashDamage: 5
+      splashDamageRadius: 8
+   }
+  shootSound: bang
+}
+{
+  name: nightmare-laser
+  x: 0
+  y: -5
+  recoil: 6
+  reload: 180
+  rotate: true
+  rotateSpeed: 10
+  continuous: true
+  mirror: false
+  bullet: {
+      type: ContinuousLaserBulletType
+      damage: 1000
+      length: 100
+      lifetime: 300
+   }
+   shootSound: laserbig
+   loopSound: beam
+}
+{
+  name: nightmare-rockets
+  x: 20
+  y: -33
+  recoil: 2
+  reload: 60
+  shots: 6
+  shotDelay: 4
+  xRand: 4
+  rotate: true
+  alternate: false
+  mirror: true
+  bullet: {
+      type: MissileBulletType
+      sprite: chaos-arranity-mk2-missile
+      frontColor: FFAA5F
+      backColor: FFAA5F
+      trailColor: FFAA5F
+      hitEffect: blastExplosion
+      speed: 5
+      lifetime: 60
+      damage: 50
+      splashDamage: 100
+      splashDamageRadius: 32
+      homingPower: 0.1
+      homingRange: 64
+      status: burning
+      shrinkY: 0
+      width: 10
+      height: 10
+      weaveScale: 0
+      weaveMag: -1
+   }
+  shootSound: missile
+}
+]

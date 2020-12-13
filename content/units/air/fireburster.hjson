@@ -1,0 +1,17 @@
+type: flying
+name: Fireburster Fighter
+description: Has a mini flamethrower to burn anything in range.
+speed: 0.3
+flying: true
+health: 70
+engineOffset: 5.5
+range: 20
+weapons: [
+{
+  name: flamethrower
+  y: 5
+  reload: 30
+  alternate: false
+  bullet: pyraFlame 
+}
+]

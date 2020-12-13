@@ -1,0 +1,77 @@
+type: flying
+name: Carnage
+speed: 2
+drag: 20
+armor: 0.1
+flying: true
+commandLimit: 18
+faceTarget: false
+health: 30000
+weapons: [
+{
+  name: carnage-rockets
+  x: 0
+  y: -30
+  recoil: 3
+  reload: 30
+  rotate: true
+  alternate: false
+  mirror: false
+  bullet: {
+      type: MissileBulletType
+      sprite: chaos-arranity-missile-adamantite-large
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      trailColor: FFAA5F
+      speed: 6
+      lifetime: 60
+      damage: 200
+      splashDamage: 100
+      splashDamageRadius: 32
+      homingPower: 0.1
+      homingRange: 64
+      hitEffect: massiveExplosion
+   }
+  shootSound: missile
+}
+{
+  name: carnage-rifle
+  x: 35
+  y: 0
+  recoil: 3
+  reload: 30
+  rotate: true
+  alternate: false
+  mirror: true
+  bullet: {
+      speed: 6
+      width: 10
+      height: 10
+      lifetime: 60
+      damage: 100
+   }
+  shootSound: bang
+}
+{
+  name: carnage-blaster
+  x: 20
+  y: 20
+  shots: 3
+  recoil: 3
+  spacing: 20
+  reload: 60
+  rotate: true
+  alternate: true
+  mirror:true
+  bullet: {
+      type: ShrapnelBulletType
+      length: 32
+      width: 16
+      speed: 0.01
+      lifetime: 20
+      pierce: true
+      damage: 100
+   }
+  shootSound: shotgun
+}
+]

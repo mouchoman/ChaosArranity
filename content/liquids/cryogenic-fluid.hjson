@@ -1,5 +1,5 @@
 name: Cryogenic Fluid
-description: Used to cool down adamantite based units, and turrets. Extremely cold.
+description: Used to forge adamantite based units, and cool off turrets. Extremely cold.
 temperature: 0.1
 viscosity: 0.3
 heatCapacity: 1.2
