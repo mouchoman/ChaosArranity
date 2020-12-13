@@ -1,9 +1,9 @@
 type: Reconstructor
 name: Tetrative Adamantite Reconstructor
 description: Upgrades adamantite units to the fifth and final tier
-health: 7200
+health: 9000
 size: 9
-itemCapacity: 1250
+itemCapacity: 2000
 constructTime: 54000
 upgrades: [
     [carnage, nightmare],
@@ -12,16 +12,16 @@ consumes: {
     power: 18
     items: {
         items: [
-            graphite/1000
-            silicon/1250
-            adamantite/720
-            surge-alloy/500
-            plastanium/1200
+            adamantite/800
+            silicon/2000
+            graphite/2000
+            surge-alloy/1500
+            plastanium/1800
         ]
     }
   liquid: {
     liquid: cryogenic-fluid
-    amount: 2
+    amount: 2.5
   }
 }
 requirements: [
