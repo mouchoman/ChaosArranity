@@ -27,7 +27,7 @@ ammoTypes: {
       speed: 4
       damage: 15
       splashDamage: 2
-      splashDamageRadius: 3
+      splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
       status: burning
@@ -50,8 +50,8 @@ ammoTypes: {
       speed: 4
       damage: 20
       splashDamage: 5
-      splashDamageRadius: 3
-      homingPower: 1
+      splashDamageRadius: 48
+      homingPower: 0.1
       homingRange: 64
       status: blasted
       statusDuration: 60
@@ -72,7 +72,7 @@ ammoTypes: {
       speed: 4
       damage: 12
       splashDamage: 2
-      splashDamageRadius: 3
+      splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
       fragBullets: 8
@@ -94,7 +94,7 @@ ammoTypes: {
       speed: 4
       damage: 20
       splashDamage: 2
-      splashDamageRadius: 3
+      splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
       fragBullets: 8
@@ -116,7 +116,7 @@ ammoTypes: {
       speed: 5
       damage: 25
       splashDamage: 2
-      splashDamageRadius: 3
+      splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
       lightning: 4
@@ -140,7 +140,7 @@ ammoTypes: {
       speed: 4
       damage: 30
       splashDamage: 5
-      splashDamageRadius: 5
+      splashDamageRadius: 64
       homingPower: 0.1
       homingRange: 64
       status: burning
@@ -163,7 +163,7 @@ ammoTypes: {
       speed: 6
       damage: 80
       splashDamage: 3
-      splashDamageRadius: 2
+      splashDamageRadius: 64
       homingPower: 0.2
       homingRange: 80
       shrinkY: 0
