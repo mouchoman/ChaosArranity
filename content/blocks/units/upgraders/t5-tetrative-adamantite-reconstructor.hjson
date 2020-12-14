@@ -25,10 +25,13 @@ consumes: {
   }
 }
 requirements: [
-    titanium/200
-    graphite/200
-    silicon/500
-    adamantite/400
+    surge-alloy/1500
+    graphite/2000
+    silicon/2000
+    plastanium/1000
+    surge-alloy/1000
+    adamantite/600
+ 
 ]
 category: units
 research: t4-exponential-adamantite-reconstructor
