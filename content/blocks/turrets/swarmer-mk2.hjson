@@ -26,7 +26,7 @@ ammoTypes: {
       hitEffect: blastExplosion
       speed: 4
       damage: 15
-      splashDamage: 2
+      splashDamage: 4
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
@@ -49,7 +49,7 @@ ammoTypes: {
       despawnEffect: blastExplosion
       speed: 4
       damage: 20
-      splashDamage: 5
+      splashDamage: 6
       splashDamageRadius: 48
       homingPower: 0.1
       homingRange: 64
@@ -71,7 +71,7 @@ ammoTypes: {
       hitEffect: blastExplosion
       speed: 4
       damage: 12
-      splashDamage: 2
+      splashDamage: 3
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
@@ -93,7 +93,7 @@ ammoTypes: {
       hitEffect: blastExplosion
       speed: 4
       damage: 20
-      splashDamage: 2
+      splashDamage: 4
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
@@ -115,7 +115,7 @@ ammoTypes: {
       hitEffect: blastExplosion
       speed: 5
       damage: 25
-      splashDamage: 2
+      splashDamage: 6
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
@@ -139,7 +139,7 @@ ammoTypes: {
       despawnEffect: massiveExplosion
       speed: 4
       damage: 30
-      splashDamage: 5
+      splashDamage: 8
       splashDamageRadius: 64
       homingPower: 0.1
       homingRange: 64
@@ -162,7 +162,7 @@ ammoTypes: {
       despawnEffect: blastExplosion
       speed: 6
       damage: 80
-      splashDamage: 3
+      splashDamage: 6
       splashDamageRadius: 64
       homingPower: 0.2
       homingRange: 80
