@@ -7,7 +7,7 @@ engineOffset: 30
 engineSize: 10
 flying: true
 commandLimit: 20
-buildSpeed: 6
+buildSpeed: 5
 mineSpeed: 16
 mineTier: 8
 itemCapacity: 250
@@ -73,7 +73,6 @@ weapons: [
       lifetime: 285
    }
    shootSound: laserbig
-   loopSound: beam
 }
 {
   name: nightmare-rockets

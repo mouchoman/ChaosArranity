@@ -9,7 +9,7 @@ burstSpacing: 3
 xRand: 8
 range: 110
 recoilAmount: 1.5
-targetAir: false
+targetAir: true
 targetGround: true
 ammoUseEffect: casing1
 inaccuracy: 10

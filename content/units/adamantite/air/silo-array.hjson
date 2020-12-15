@@ -3,7 +3,7 @@ name: Silo Array
 speed: 3
 flying: true
 commandLimit: 12
-buildSpeed: 3.5
+buildSpeed: 3
 mineSpeed: 9
 mineTier: 4
 itemCapacity: 100
