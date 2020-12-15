@@ -1,7 +1,7 @@
 type: Reconstructor
 name: Exponential Adamantite Reconstructor
 description: Upgrades adamantite units to the fourth tier
-health: 7200
+health: 8000
 size: 7
 itemCapacity: 1250
 constructTime: 43200
@@ -25,10 +25,12 @@ consumes: {
   }
 }
 requirements: [
-    titanium/200
-    graphite/200
-    silicon/500
-    adamantite/400
+    graphite/1200
+    thorium/800
+    surge-alloy/600
+    plastanium/500
+    silicon/1800
+    adamantite/320
 ]
 category: units
 research: t3-multiplicative-adamantite-reconstructor

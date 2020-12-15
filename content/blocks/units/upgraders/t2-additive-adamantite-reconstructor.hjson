@@ -25,10 +25,10 @@ consumes: {
   }
 }
 requirements: [
-    copper/350
-    lead/260
-    silicon/200
-    adamantite/190
+    lead/1000
+    silicon/800
+    thorium/500
+    adamantite/180
 ]
 category: units
 research: t1-adamantite-unit-constructor

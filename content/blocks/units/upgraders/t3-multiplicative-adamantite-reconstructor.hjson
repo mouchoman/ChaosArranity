@@ -25,10 +25,11 @@ consumes: {
   }
 }
 requirements: [
-    titanium/200
-    graphite/200
+    plastanium/600
+    graphite/800
+    surge-alloy/800
     silicon/500
-    adamantite/260
+    adamantite/270
 ]
 category: units
 research: t2-additive-adamantite-reconstructor
