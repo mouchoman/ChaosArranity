@@ -7,6 +7,7 @@ itemCapacity: 800
 constructTime: 21600
 upgrades: [
     [reliavent, silo-array],
+    [melter, evasculator],
 ]
 consumes: {
     power: 10
