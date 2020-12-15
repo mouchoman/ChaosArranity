@@ -5,5 +5,5 @@ upgrades: [
     [flare, horizon],
     [mono, poly],
     [risso, minke],
-    [minidaggish, marginator]
+    [t1-dalish, t2-marginator]
 ]

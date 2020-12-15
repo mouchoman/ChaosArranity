@@ -12,7 +12,7 @@ requirements: [
 
 plans: [
     {
-        unit: reliavent
+        unit: t1-reliavent
         requirements: [
             adamantite/80
             plastanium/400
@@ -21,7 +21,7 @@ plans: [
         time: 7200
     }
     {
-        unit: evasculator
+        unit: t1-melter
         requirements: [
             adamantite/80
             plastanium/400

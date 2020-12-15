@@ -16,7 +16,7 @@ ammoTypes: {
     ammoMultiplier: 2
     reloadMultiplier: 1
     status: freezing
-    knockback: 0.5
+    knockback: 0.6
     liquid: cryofluid
    }
 }

@@ -25,7 +25,7 @@ plans: [
         time: 2400
     },
     {
-        unit: minidaggish
+        unit: t1-dalish
         requirements: [
             silicon/10
         ]

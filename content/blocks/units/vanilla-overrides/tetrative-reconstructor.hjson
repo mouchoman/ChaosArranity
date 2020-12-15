@@ -5,5 +5,5 @@ upgrades: [
     [sei, omura],
     [quad, oct],
     [vela, corvus],
-    [arcaster, lancamitor]
+    [t4-arcaster, t5-lancamitor]
 ]

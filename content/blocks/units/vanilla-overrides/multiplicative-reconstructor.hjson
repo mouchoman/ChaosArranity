@@ -5,5 +5,5 @@ upgrades: [
     [minke, bryde],
     [pulsar, quasar],
     [atrax, spiroct],
-    [marginator, relametion]
+    [t2-marginator, t3-relametion]
 ]

@@ -6,7 +6,8 @@ size: 7
 itemCapacity: 1250
 constructTime: 43200
 upgrades: [
-    [decimation, carnage],
+    [t3-decimation, t4-carnage],
+    [t3-blaster, t4-catastrophere],
 ]
 consumes: {
     power: 18

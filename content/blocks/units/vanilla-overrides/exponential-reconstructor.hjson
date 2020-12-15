@@ -5,5 +5,5 @@ upgrades: [
     [bryde, sei],
     [mega, quad],
     [quasar, vela],
-    [relametion, arcaster]
+    [t3-relametion, t4-arcaster]
 ]
