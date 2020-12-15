@@ -1,29 +1,37 @@
 type: mech
-name: Evasculator
-speed: 0.1
-boostMultiplier: 1.5
-buildSpeed: 2
+name: Melter
+speed: 0.2
+buildSpeed: 3
 mineSpeed: 6
 mineTier: 3
 itemCapacity: 100
+hitSize: 20
 accel: 10
 flying: false
 health: 13000
 weapons: [
 {
   name: evasculator-weapon
-  y: 10
-  x: 10
+  y: 0
+  x: 12
+  shootY: 10
   reload: 10
-  alternate: true
+  alternate: false
+  recoil: 4
+  ejectEffect: none
   bullet: {
-   type: BasicBulletType
-    width: 20
-    height: 20
-   speed: 6
-   lifetime: 60
-   damage: 200
-}
-  shootSound: bang
+      type: LiquidBulletType
+      liquid: slag
+      damage: 400
+      drag: 0.03
+      statusDuration: 720
+      shootSound: spray
+      status: {
+         name: overheating
+         damage: 0.533333333333333333
+         color: ff8800
+         effect: fire
+      }
+  }
 }
 ]
