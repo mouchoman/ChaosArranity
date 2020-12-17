@@ -2,7 +2,7 @@ type: mech
 name: Lancamitor
 speed: 0.1
 flying: false
-health: 10000
+health: 20000
 engineOffset: 5.5
 range: 500
 hitSize: 30
@@ -12,12 +12,16 @@ weapons: [
   name: lancamitor-weapon
   y: 10
   x: 25
-  reload: 30
-  alternate: false
+  shootY: 10
+  reload: 15
+  alternate: true
   bullet: {
-    type: ContinuousLaserBulletType
-    damage: 300
-}
+      type: LaserBulletType
+      lifetime: 10
+      damage: 200
+      length: 150
+  }
+  shootSound: laser
 }
 ]
 

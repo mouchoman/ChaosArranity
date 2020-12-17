@@ -3,7 +3,7 @@ name: Arcaster
 description: Fires arcs at nearby threats.
 speed: 0.3
 flying: false
-health: 520
+health: 7500
 engineOffset: 5.5
 range: 80
 hitSize: 15
@@ -12,12 +12,13 @@ weapons: [
   name: arcnado
   y: 3
   x: 10
-  reload: 60
+  reload: 7.5
   shootSound: bigshot
   alternate: true
   bullet: {
      type: LightningBulletType
-     damage: 20
+     damage: 35
+     lightningLength: 10
    }
 }
 ]

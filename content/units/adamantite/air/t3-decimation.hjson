@@ -25,7 +25,7 @@ weapons: [
       damage: 1500
       length: 200
    }
-  shootSound: bang
+  shootSound: laser
 }
 ]
 

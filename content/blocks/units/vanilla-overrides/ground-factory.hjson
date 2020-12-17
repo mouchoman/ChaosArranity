@@ -2,8 +2,7 @@ plans: [
     {
         unit: dagger
         requirements: [
-            silicon/10
-            lead/10
+            silicon/20
         ]
         time: 900
     },
@@ -29,6 +28,6 @@ plans: [
         requirements: [
             silicon/10
         ]
-        time: 600
+        time: 480
     },
 ]
