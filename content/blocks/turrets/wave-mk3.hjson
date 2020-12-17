@@ -71,7 +71,7 @@ ammoTypes: {
     damage: 1
     status: freezing
     knockback: 0.5
-    liquid: cryofluid
+    liquid: cryogenic-fluid
    }
 }
 requirements: [

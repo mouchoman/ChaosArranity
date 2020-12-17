@@ -1,6 +1,6 @@
   type: OverdriveProjector
   name: Overdriver
-  description: A smaller and less powerful overdrive projector. uses silicon to boost range and speed.
+  description: A smaller and less powerful overdrive projector. Uses silicon to boost range and speed.
   health: 90
   hasItems: true
   hasLiquids: false

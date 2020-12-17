@@ -8,7 +8,7 @@ health: 660
 hasPower: true
 hasLiquids: false
 hasItems: true
-craftTime: 120
+craftTime: 30
 updateEffect: smeltsmoke
 outputItem: silicon/10
 consumes: {
