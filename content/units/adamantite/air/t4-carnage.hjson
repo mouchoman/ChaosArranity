@@ -9,7 +9,6 @@ buildSpeed: 4
 mineSpeed: 10
 mineTier: 6
 itemCapacity: 150
-faceTarget: false
 health: 32000
 weapons: [
 {
