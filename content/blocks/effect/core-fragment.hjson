@@ -1,6 +1,6 @@
 type: CoreBlock
 name: Core: Fragment
-description: Core of the base. Massive core with an immense amount of health and storage.
+description: Core of the base. Unbelievably armored. Stores more than a Nucleus.
 size: 6
 health: 16000
 hasItems: true
@@ -8,6 +8,7 @@ hasLiquids: false
 hasPower: false
 itemCapacity: 20000
 unitType: mega
+unitCapModifier: 50
 requirements: [
      surge-alloy/1000
      plastanium/1000
