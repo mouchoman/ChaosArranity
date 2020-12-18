@@ -4,7 +4,7 @@ description: Upgrades adamantite units to the fifth and final tier
 health: 9000
 size: 9
 itemCapacity: 2000
-constructTime: 54000
+constructTime: 50400
 upgrades: [
     [t4-carnage, t5-nightmare],
     [t4-catastrophere, t5-death],

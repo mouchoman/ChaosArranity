@@ -1,14 +1,16 @@
 type: mech
 name: Death
-speed: 0.1
+speed: 0.2
 buildSpeed: 3
 mineSpeed: 8
 mineTier: 3
 itemCapacity: 200
+canDrown: false
 hitSize: 50
 accel: 10
 flying: false
 health: 50000
+armor: 15
 weapons: [
 {
   name: main-laser
@@ -25,7 +27,7 @@ weapons: [
   bullet: {
       type: ContinuousLaserBulletType
       damage: 3000
-      length: 100
+      length: 120
       lifetime: 285
       status: {
          name: obliterating
@@ -54,9 +56,9 @@ weapons: [
       width: 9
       height: 12
       lifetime: 35
-      damage: 20
-      fragBullets: 10
-      fragBullet: fragGlassFrag
+      damage: 40
+      fragBullets: 12
+      fragBullet: fragPlasticFrag
       splashDamage: 10
       splashDamageRadius: 16
    }

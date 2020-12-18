@@ -1,6 +1,6 @@
 type: mech
 name: Lancamitor
-speed: 0.1
+speed: 0.2
 flying: false
 health: 20000
 engineOffset: 5.5

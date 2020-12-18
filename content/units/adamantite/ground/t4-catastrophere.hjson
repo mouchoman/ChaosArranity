@@ -1,6 +1,6 @@
 type: mech
 name: Catastrophere
-speed: 0.2
+speed: 0.25
 buildSpeed: 3
 mineSpeed: 6
 mineTier: 3

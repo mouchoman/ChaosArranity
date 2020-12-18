@@ -4,7 +4,7 @@ description: Upgrades adamantite units to the third tier
 health: 9000
 size: 5
 itemCapacity: 1000
-constructTime: 27000
+constructTime: 23400
 upgrades: [
     [t2-silo-array, t3-decimation],
     [t2-evasculator, t3-blaster],

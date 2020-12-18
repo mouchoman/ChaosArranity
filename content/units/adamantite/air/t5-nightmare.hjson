@@ -2,7 +2,7 @@ type: flying
 name: Nightmare
 speed: 1
 drag: 20
-armor: 5
+armor: 10
 engineOffset: 30
 engineSize: 10
 flying: true
@@ -21,8 +21,8 @@ weapons: [
   recoil: 3
   reload: 15
   rotate: true
-  rotateSpeed: 0.01
-  shootCone: 20
+  rotateSpeed: 0.005
+  shootCone: 30
   alternate: true
   mirror: true
   bullet: {
