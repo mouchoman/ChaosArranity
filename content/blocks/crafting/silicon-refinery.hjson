@@ -24,6 +24,7 @@ requirements: [
   metaglass/50
   thorium/30
   silicon/100
+  surge-alloy/80
 ]
 category: crafting
 research: silicon-crucible
