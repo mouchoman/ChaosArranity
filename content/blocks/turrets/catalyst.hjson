@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Catalyst
 description: An extremely powerful high-range sniper. Can use most items for ammo.
-health: 2800
+health: 4000
 size: 3
 reloadTime: 300
 range: 600
@@ -14,7 +14,7 @@ shootSound: bang
 shootShake: 6
 inaccuracy: 0
 rotateSpeed: 5
-coolantMultiplier: 10
+coolantMultiplier: 5
 ammoTypes: {
    copper: {
     speed: 6
@@ -210,11 +210,11 @@ ammoTypes: {
    }
 }
 requirements: [
-  lead/500
+  silicon/1000
   graphite/1000
-  thorium/220
-  plastanium/220
-  surge-alloy/300
+  thorium/800
+  plastanium/600
+  surge-alloy/400
 ]
 category: turret
 research: foreshadow
