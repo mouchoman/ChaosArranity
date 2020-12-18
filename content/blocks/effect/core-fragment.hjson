@@ -8,6 +8,7 @@ hasLiquids: false
 hasPower: false
 itemCapacity: 20000
 unitType: mega
+unitCapmodifier: 2
 requirements: [
      surge-alloy/1000
      plastanium/1000
