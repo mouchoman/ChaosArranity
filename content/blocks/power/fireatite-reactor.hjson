@@ -1,19 +1,17 @@
-type: NuclearReactor
+type: ImpactReactor
 name: Fireatite Reactor
-description: Burns Fireatite to produce extreme quantities of power. Requires massive amounts of coolant to prevent overheating.
-size: 3
-health: 3000
+description: A highly advanced power generator. Fuses fireatite and cryogenic fluid to make an insane detonating reaction to make massive amounts of power.
+size: 6
+health: 12000
+plasmas: 2
 hasPower: true
 hasItems: true
 hasLiquids: true
-breakSound: explosionbig
-baseExplosiveness: 2000
-explosionRadius: 300
-explosionDamage: 8000
-itemDuration: 80
-powerProduction: 168
-heating: 0.003
+itemDuration: 60
+powerProduction: 500
+explosionDamage: 4000
 consumes: {
+  power: 83.333333333333
   items: {
     items: [
           fireatite/1
@@ -21,15 +19,17 @@ consumes: {
   }
   liquid: {
     liquid: cryogenic-fluid
-    amount: 0.8
+    amount: 0.4
   }
 }
 requirements: [
-  silicon/100
-  surge-alloy/100
-  graphite/100
-  adamantite/15
-  titanium/300
+  silicon/600
+  surge-alloy/400
+  graphite/500
+  adamantite/180
+  plastanium/550
 ]
 category: power
 research: thorium-reactor
+ambientSound: pulse
+ambientSoundVolume: 0.1
