@@ -10,7 +10,7 @@ upgrades: [
     [t1-melter, t2-evasculator],
 ]
 consumes: {
-    power: 10
+    power: 66.6666666666666666666
     items: {
         items: [
             graphite/600

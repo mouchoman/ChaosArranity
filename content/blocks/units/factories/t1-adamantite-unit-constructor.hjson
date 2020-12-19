@@ -34,6 +34,6 @@ plans: [
 
 category: units
 consumes: {
-    power: 12
+    power: 33.3333333333333333333
 }
 research: air-factory

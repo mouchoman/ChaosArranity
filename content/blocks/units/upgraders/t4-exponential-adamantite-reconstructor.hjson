@@ -10,7 +10,7 @@ upgrades: [
     [t3-blaster, t4-catastrophere],
 ]
 consumes: {
-    power: 18
+    power: 133.3333333333333333
     items: {
         items: [
             graphite/1000

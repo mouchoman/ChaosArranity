@@ -10,7 +10,7 @@ upgrades: [
     [t2-evasculator, t3-blaster],
 ]
 consumes: {
-    power: 14
+    power: 100
     items: {
         items: [
             graphite/1000

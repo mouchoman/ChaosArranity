@@ -10,7 +10,7 @@ upgrades: [
     [t4-catastrophere, t5-death],
 ]
 consumes: {
-    power: 18
+    power: 166.66666666666666
     items: {
         items: [
             adamantite/800
