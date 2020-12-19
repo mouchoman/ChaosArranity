@@ -2,6 +2,7 @@ type: GenericSmelter
 name: Silicon Ejector (Thorium)
 description: Ejects silicon from thorium. Requires a large amount of power to function. Useful when there is no sand in the region.
 liquidCapacity: 0
+itemCapacity: 30
 size: 2
 health: 320
 hasPower: true
