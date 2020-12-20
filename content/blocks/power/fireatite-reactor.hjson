@@ -1,15 +1,14 @@
 type: ImpactReactor
 name: Fireatite Reactor
-description: A highly advanced power generator. Fuses fireatite and cryogenic fluid to make an insane detonating reaction to make massive amounts of power.
+description: A highly advanced power generator. Fuses fireatite and cryogenic fluid to make a massive detonating reaction to make insane amounts of power.
 size: 6
 health: 12000
-plasmas: 2
 hasPower: true
 hasItems: true
 hasLiquids: true
 itemDuration: 60
-powerProduction: 500
-explosionDamage: 4000
+powerProduction: 700
+explosionDamage: 5000
 consumes: {
   power: 83.333333333333
   items: {
@@ -31,5 +30,5 @@ requirements: [
 ]
 category: power
 research: thorium-reactor
-ambientSound: pulse
-ambientSoundVolume: 0.1
+ambientSound: firePulse
+ambientSoundVolume: 0.8

@@ -18,8 +18,8 @@ restitution: 0.05
 rotateSpeed: 5
 shootCone: 5
 shootShake: 0
-shootSound: laserbig
-loopSound: beam
+shootSound: vaporizerShoot
+loopSound: vaporizerLoop
 loopSoundVolume: 2
 firingMoveFract: 0.5
 shootDuration: 480
@@ -27,7 +27,7 @@ coolantMultiplier: 5
 targetAir: true
 targetGround: true
 requirements: [
-   adamantite/500
+   adamantite/800
    surge-alloy/1000
    silicon/2500
    thorium/1000
